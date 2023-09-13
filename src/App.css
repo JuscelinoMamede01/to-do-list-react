@@ -1,0 +1,65 @@
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+
+}
+
+#btn {
+    margin: 25px 0px 25px 25px;
+    align-items: flex-end;
+}
+
+.ListItems {
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+form {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottomContent {
+    width: 80%;
+    justify-content: right;
+}
+
+
+
+.textList {
+    width: 80%;
+
+}
+
+.ItemContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+}
